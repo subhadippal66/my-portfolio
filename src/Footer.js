@@ -23,7 +23,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
-                    alt=""
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
                     src={github}
                     style={{ width: "70px", height: "70px" }}
                   />
@@ -42,7 +42,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
-                    alt=""
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
                     src={linkedin}
                     style={{ width: "70px", height: "70px" }}
                   />
@@ -61,7 +61,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
-                    alt=""
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
                     src={insta}
                     style={{ width: "70px", height: "70px" }}
                   />
@@ -80,7 +80,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
-                    alt=""
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
                     src={twitter}
                     style={{ width: "70px", height: "70px" }}
                   />
@@ -99,7 +99,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
-                    alt=""
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
                     src={gmail}
                     style={{ width: "70px", height: "70px" }}
                   />

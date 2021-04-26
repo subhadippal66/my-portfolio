@@ -28,7 +28,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={cpp} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={cpp}
+                />
               </Fade>
             </figure>
             <span>C++</span>
@@ -36,7 +39,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={python} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={python}
+                />
               </Fade>
             </figure>
             <span>Python</span>
@@ -44,7 +50,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={javascript} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={javascript}
+                />
               </Fade>
             </figure>
             <span>Javascript</span>
@@ -52,7 +61,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={html} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={html}
+                />
               </Fade>
             </figure>
             <span>HTML</span>
@@ -60,7 +72,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={css} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={css}
+                />
               </Fade>
             </figure>
             <span>CSS</span>
@@ -68,7 +83,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={react} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={react}
+                />
               </Fade>
             </figure>
             <span>React</span>
@@ -76,7 +94,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={nodejs} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={nodejs}
+                />
               </Fade>
             </figure>
             <span>NodeJS</span>
@@ -84,7 +105,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={express} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={express}
+                />
               </Fade>
             </figure>
             <span>Express</span>
@@ -92,7 +116,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={mongo} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={mongo}
+                />
               </Fade>
             </figure>
             <span>MongoDB</span>
@@ -100,7 +127,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={sql} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={sql}
+                />
               </Fade>
             </figure>
             <span>SQL</span>
@@ -108,7 +138,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={firebase} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={firebase}
+                />
               </Fade>
             </figure>
             <span>Firebase</span>
@@ -116,7 +149,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={heroku} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={heroku}
+                />
               </Fade>
             </figure>
             <span>Heroku</span>
@@ -124,7 +160,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={tailwind} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={tailwind}
+                />
               </Fade>
             </figure>
             <span>TailwindCSS</span>
@@ -132,7 +171,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={bootstrap} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={bootstrap}
+                />
               </Fade>
             </figure>
             <span>Bootstrap</span>
@@ -140,7 +182,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={postman} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={postman}
+                />
               </Fade>
             </figure>
             <span>Postman</span>
@@ -148,7 +193,10 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img alt="" src={github} />
+                <img
+                  alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png"
+                  src={github}
+                />
               </Fade>
             </figure>
             <span>Github</span>

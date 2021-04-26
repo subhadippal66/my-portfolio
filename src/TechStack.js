@@ -28,7 +28,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={cpp} />
+                <img alt="" src={cpp} />
               </Fade>
             </figure>
             <span>C++</span>
@@ -36,7 +36,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={python} />
+                <img alt="" src={python} />
               </Fade>
             </figure>
             <span>Python</span>
@@ -44,7 +44,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={javascript} />
+                <img alt="" src={javascript} />
               </Fade>
             </figure>
             <span>Javascript</span>
@@ -52,7 +52,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={html} />
+                <img alt="" src={html} />
               </Fade>
             </figure>
             <span>HTML</span>
@@ -60,7 +60,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={css} />
+                <img alt="" src={css} />
               </Fade>
             </figure>
             <span>CSS</span>
@@ -68,7 +68,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={react} />
+                <img alt="" src={react} />
               </Fade>
             </figure>
             <span>React</span>
@@ -76,7 +76,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={nodejs} />
+                <img alt="" src={nodejs} />
               </Fade>
             </figure>
             <span>NodeJS</span>
@@ -84,7 +84,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={express} />
+                <img alt="" src={express} />
               </Fade>
             </figure>
             <span>Express</span>
@@ -92,7 +92,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={mongo} />
+                <img alt="" src={mongo} />
               </Fade>
             </figure>
             <span>MongoDB</span>
@@ -100,7 +100,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={sql} />
+                <img alt="" src={sql} />
               </Fade>
             </figure>
             <span>SQL</span>
@@ -108,7 +108,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={firebase} />
+                <img alt="" src={firebase} />
               </Fade>
             </figure>
             <span>Firebase</span>
@@ -116,7 +116,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={heroku} />
+                <img alt="" src={heroku} />
               </Fade>
             </figure>
             <span>Heroku</span>
@@ -124,7 +124,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={tailwind} />
+                <img alt="" src={tailwind} />
               </Fade>
             </figure>
             <span>TailwindCSS</span>
@@ -132,7 +132,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={bootstrap} />
+                <img alt="" src={bootstrap} />
               </Fade>
             </figure>
             <span>Bootstrap</span>
@@ -140,7 +140,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={postman} />
+                <img alt="" src={postman} />
               </Fade>
             </figure>
             <span>Postman</span>
@@ -148,7 +148,7 @@ function TechStack() {
           <div>
             <figure>
               <Fade bottom>
-                <img src={github} />
+                <img alt="" src={github} />
               </Fade>
             </figure>
             <span>Github</span>

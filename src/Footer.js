@@ -22,7 +22,11 @@ function Footer() {
             >
               <figure id="foot">
                 <Fade bottom>
-                  <img src={github} style={{ width: "70px", height: "70px" }} />
+                  <img
+                    alt=""
+                    src={github}
+                    style={{ width: "70px", height: "70px" }}
+                  />
                 </Fade>
               </figure>
             </a>
@@ -38,6 +42,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
+                    alt=""
                     src={linkedin}
                     style={{ width: "70px", height: "70px" }}
                   />
@@ -55,7 +60,11 @@ function Footer() {
             >
               <figure id="foot">
                 <Fade bottom>
-                  <img src={insta} style={{ width: "70px", height: "70px" }} />
+                  <img
+                    alt=""
+                    src={insta}
+                    style={{ width: "70px", height: "70px" }}
+                  />
                 </Fade>
               </figure>
             </a>
@@ -71,6 +80,7 @@ function Footer() {
               <figure id="foot">
                 <Fade bottom>
                   <img
+                    alt=""
                     src={twitter}
                     style={{ width: "70px", height: "70px" }}
                   />
@@ -88,7 +98,11 @@ function Footer() {
             >
               <figure id="foot">
                 <Fade bottom>
-                  <img src={gmail} style={{ width: "70px", height: "70px" }} />
+                  <img
+                    alt=""
+                    src={gmail}
+                    style={{ width: "70px", height: "70px" }}
+                  />
                 </Fade>
               </figure>
             </a>

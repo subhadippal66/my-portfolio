@@ -22,7 +22,6 @@ function App() {
   };
 
   const canvasRef = useRef(null);
-  const roughRef = useRef(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;

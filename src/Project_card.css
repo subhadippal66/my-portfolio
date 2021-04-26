@@ -1,0 +1,95 @@
+.main_box {
+  padding: 1rem;
+  margin: 1rem;
+  color: #e5e4e2;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 1% 99% 2% 98% / 96% 1% 99% 4%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #d98e32;
+  margin-top: 1rem;
+  column-gap: 1rem;
+}
+.name_ {
+  font-family: "Yatra One", cursive;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.gitLink {
+  color: #d98e32;
+  transition: all 0.3s ease;
+}
+
+[data-title] {
+  font-size: 30px; /*optional styling*/
+
+  position: relative;
+  cursor: pointer;
+}
+
+[data-title]:hover::before {
+  content: attr(data-title);
+  position: absolute;
+  bottom: -30px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 0px;
+  background: #000;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  white-space: nowrap;
+  z-index: 1;
+}
+[data-title]:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 8px;
+  display: inline-block;
+  color: #fff;
+  border: 8px solid transparent;
+  border-bottom: 8px solid #000;
+}
+
+.gitLink:hover {
+  color: white;
+}
+
+.url {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #d98e32;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 5px 0px;
+  font-weight: 600;
+}
+
+.url:hover,
+.url:active {
+  font-weight: 300;
+  color: #e5e4e2;
+  letter-spacing: 2px;
+  border-top: 2px solid #e5e4e2;
+  border-bottom: 2px solid #e5e4e2;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 650px) {
+  .main_box {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,58 @@
+.main {
+  background-color: rgba(13, 13, 13, 0.3);
+  padding: 4rem;
+  margin: 4rem;
+  color: #ecf3f9;
+  backdrop-filter: blur(3px);
+  border-radius: 53% 9% 64% 10% / 10% 60% 14% 66%;
+}
+
+.typospace {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hey {
+  /* position: relative; */
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gretting {
+  font-family: "Yatra One", cursive;
+  font-weight: 400;
+  color: #f27649;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 4rem;
+  color: #d98e32;
+  padding-bottom: 1rem;
+}
+
+.college {
+  color: #bfa834;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .main {
+    padding: 2rem;
+    margin: 2rem 0rem;
+  }
+  .name {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  .hey {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}

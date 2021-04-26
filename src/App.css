@@ -1,38 +1,42 @@
 .App {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas1 {
+  position: fixed;
+  background-color: #031926;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.text {
+  color: #5ebf6c;
+}
+
+.uppertext {
+  padding: 5px 0px;
+  border-bottom: 1px solid #ecf3f95d;
+  font-family: "Yatra One", cursive;
   text-align: center;
+  color: #ecf3f9c2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navControlBar {
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #bfa834;
+  min-width: 100%;
+}
+.sliderArea {
+  padding: 1rem 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 650px) {
+  .navControlBar {
+    flex-direction: column;
   }
 }

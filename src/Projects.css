@@ -1,0 +1,21 @@
+.main_ {
+  background-color: rgba(13, 13, 13, 0.2);
+  padding: 2rem;
+  margin: 4rem;
+  backdrop-filter: blur(3px);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+.project_ {
+  text-align: center;
+  font-family: "Yatra One", cursive;
+  font-weight: 400;
+  color: #f27649;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+@media (max-width: 650px) {
+  .main_ {
+    margin: 0;
+    margin-top: 2rem;
+  }
+}

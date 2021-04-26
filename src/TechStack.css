@@ -1,0 +1,121 @@
+.tech {
+  background-color: rgba(13, 13, 13, 0.2);
+  padding: 2rem;
+  padding-bottom: 0;
+  margin: 4rem;
+  backdrop-filter: blur(3px);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+.tech_stack {
+  text-align: center;
+  font-family: "Yatra One", cursive;
+  font-weight: 400;
+  color: #f27649;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.iconArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 650px) {
+  .tech {
+    margin: 0;
+    margin-top: 2rem;
+  }
+}
+
+/* hover effect */
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 0;
+}
+
+.column div:first-child {
+  margin-left: 0;
+}
+.column div span {
+  bottom: 0px;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  width: 3px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  margin-left: 10px;
+}
+figure {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+figure:hover + span {
+  bottom: -36px;
+  opacity: 1;
+}
+img {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+/* Shine */
+.hover14 figure {
+  position: relative;
+}
+.hover14 figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+.hover14 figure:hover::before {
+  -webkit-animation: shine 0.75s;
+  animation: shine 0.75s;
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
